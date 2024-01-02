@@ -1,0 +1,103 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  background-color: #111111e3;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+nav ul li a {
+  position: relative;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+  color: #ada298;
+}
+
+.sidenav a {
+  padding-top: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+#closebtn {
+  display: none;
+}
+
+a.nav-link.active {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.nav-link {
+  display: block;
+  /* padding: 0.5rem 1rem; */
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover,
+a.nav-link.active:hover {
+  color: #fff !important;
+}
+
+button.navbar-toggler:focus,
+button.navbar-toggler:focus-visible {
+  border: none !important;
+  outline: none !important;
+}
+
+#navbarSupportedContent .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-toggler1 {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  display: none;
+  width: 10%;
+}
+
+.menuBar {
+  width: 70%;
+}
+
+.activeW {
+  color: rgb(255, 255, 255) !important;
+}
+
+.text-grey {
+  color: #ada298;
+}
+
+.fs-7 {
+  font-size: 1.2rem;
+}

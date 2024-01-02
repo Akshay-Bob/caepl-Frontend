@@ -1,0 +1,32 @@
+.carousel-control-prev {
+  position: absolute;
+  background: transparent !important;
+  transition: all 0.3s;
+  top: 50% !important;
+  width: 40px !important;
+  height: 40px;
+  z-index: 9;
+  left: 5;
+  border-radius: 0 5px 5px 0 !important;
+  opacity: 0.7;
+}
+
+
+
+.carousel-control-next {
+  position: absolute;
+  background: transparent !important;
+  transition: all 0.3s;
+  top: 50% !important;
+  width: 40px !important;
+  height: 40px;
+  z-index: 9;
+  right: 5;
+  border-radius: 5px 0px 0px 5px !important;
+  opacity: 0.7;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+  display: none !important;
+}

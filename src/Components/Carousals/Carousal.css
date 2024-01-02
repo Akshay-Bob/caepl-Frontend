@@ -1,0 +1,13 @@
+.imageCarousal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.carousalItem {
+    touch-action: pan-x pan-y; /* Adjust according to your needs */
+  }
+

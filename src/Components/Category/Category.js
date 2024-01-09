@@ -14,7 +14,7 @@ import "swiper/css/thumbs";
 function Category() {
   const [selectedProductIndex, setSelectedProductIndex] = useState(false);
   const [show, setShow] = useState(false);
-  const [selectedImage, setSelectedImage] = useState("");
+  // const [selectedImage, setSelectedImage] = useState("");
   const [selectedSlideImage, setSelectedSlideImage] = useState();
   const [display, setDisplay] = useState("none");
 
@@ -25,7 +25,7 @@ function Category() {
 
   const handleShow = (i) => {
     setShow(true);
-    setSelectedImage(matchingService.imgDatas[i].productSm);
+    // setSelectedImage(matchingService.imgDatas[i].productSm);
     setSelectedProductIndex(i);
     setDisplay("block");
     setSelectedSlideImage(i);
@@ -43,7 +43,7 @@ function Category() {
   };
   
   const updateSelectedImage = (index) => {
-    setSelectedImage(matchingService.imgDatas[index].productSm);
+    // setSelectedImage(matchingService.imgDatas[index].productSm);
     setSelectedSlideImage(index);
     setSelectedProductIndex(index);
   };
@@ -79,9 +79,9 @@ function Category() {
     ))
     : [];
 
-  const imageViews = matchingService.imgDatas
-    ? matchingService.imgDatas.map((item) => item.isMultiple)
-    : [];
+  // const imageViews = matchingService.imgDatas
+  //   ? matchingService.imgDatas.map((item) => item.isMultiple)
+  //   : [];
 
   const selectedProduct = matchingService.imgDatas[selectedSlideImage];
 

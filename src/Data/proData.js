@@ -619,8 +619,8 @@ import menuSm56 from '../Images/menu/small_view/25-Menu_DSC02958.webp';
 import menuSm57 from '../Images/menu/small_view/25A-Menu_DSC02959.webp';
 import menuSm58 from '../Images/menu/small_view/26-Menu_DSC02961.webp';
 import menuSm59 from '../Images/menu/small_view/26A-Menu_DSC02962.webp';
-import menuSm60 from '../Images/menu/small_view/27-Menu_DSC02964.webp';
-import menuSm61 from '../Images/menu/small_view/27A-Menu_DSC02967.webp';
+// import menuSm60 from '../Images/menu/small_view/27-Menu_DSC02964.webp';
+// import menuSm61 from '../Images/menu/small_view/27A-Menu_DSC02967.webp';
 import menuSm62 from '../Images/menu/small_view/28-Menu_DSC02970.webp';
 import menuSm63 from '../Images/menu/small_view/28A-Menu_DSC02971.webp';
 import menuSm64 from '../Images/menu/small_view/29-Menu_DSC02974.webp';
@@ -687,8 +687,8 @@ import menuBig56 from '../Images/menu/final_view/25-Menu_DSC02958.webp';
 import menuBig57 from '../Images/menu/final_view/25A-Menu_DSC02959.webp';
 import menuBig58 from '../Images/menu/final_view/26-Menu_DSC02961.webp';
 import menuBig59 from '../Images/menu/final_view/26A-Menu_DSC02962.webp';
-import menuBig60 from '../Images/menu/final_view/27-Menu_DSC02964.webp';
-import menuBig61 from '../Images/menu/final_view/27A-Menu_DSC02967.webp';
+// import menuBig60 from '../Images/menu/final_view/27-Menu_DSC02964.webp';
+// import menuBig61 from '../Images/menu/final_view/27A-Menu_DSC02967.webp';
 import menuBig62 from '../Images/menu/final_view/28-Menu_DSC02970.webp';
 import menuBig63 from '../Images/menu/final_view/28A-Menu_DSC02971.webp';
 import menuBig64 from '../Images/menu/final_view/29-Menu_DSC02974.webp';
@@ -759,7 +759,7 @@ import jewelleryBig19 from '../Images/jewellery/final_view/15A_Jewellery_DSC0515
 import jewelleryBig20 from '../Images/jewellery/final_view/15_Jewellery_DSC00647-mix.webp';
 import jewelleryBig21 from '../Images/jewellery/final_view/16_Jewellery_DSC02030-mix.webp';
 import jewelleryBig22 from '../Images/jewellery/final_view/17A_Jewellery_DSC06375-mix.webp';
-import jewelleryBig23 from '../Images/jewellery/final_view/17_Jewellery_DSC01112-mix.webp';
+// import jewelleryBig23 from '../Images/jewellery/final_view/17_Jewellery_DSC01112-mix.webp';
 import jewelleryBig24 from '../Images/jewellery/final_view/18_Jewellery_DSC02107.webp';
 import jewelleryBig25 from '../Images/jewellery/final_view/19_Jewellery_DSC02954_Mix.webp';
 import jewelleryBig26 from '../Images/jewellery/final_view/20A_Jewellery_DSC04852-mix.webp';
@@ -850,7 +850,7 @@ import bespokeStationryBig44 from '../Images/bespoke-stationary/final_view/19_Be
 import bespokeStationryBig45 from '../Images/bespoke-stationary/final_view/20_Bespoke Stationary/DSC01938.jpg';
 import bespokeStationryBig46 from '../Images/bespoke-stationary/final_view/20_Bespoke Stationary/DSC01939.jpg';
 import bespokeStationryBig47 from '../Images/bespoke-stationary/final_view/20_Bespoke Stationary/DSC01940.jpg';
-import bespokeStationryBig48 from '../Images/bespoke-stationary/final_view/20_Bespoke Stationary/DSC01941.jpg';
+// import bespokeStationryBig48 from '../Images/bespoke-stationary/final_view/20_Bespoke Stationary/DSC01941.jpg';
 
 import bespokeStationrySm01 from '../Images/bespoke-stationary/small_view/01_Bespoke Stationary/DSC02041.jpg';
 import bespokeStationrySm02 from '../Images/bespoke-stationary/small_view/01_Bespoke Stationary/DSC02059.jpg';
@@ -899,7 +899,7 @@ import bespokeStationrySm44 from '../Images/bespoke-stationary/small_view/19_Bes
 import bespokeStationrySm45 from '../Images/bespoke-stationary/small_view/20_Bespoke Stationary/DSC01938.jpg';
 import bespokeStationrySm46 from '../Images/bespoke-stationary/small_view/20_Bespoke Stationary/DSC01939.jpg';
 import bespokeStationrySm47 from '../Images/bespoke-stationary/small_view/20_Bespoke Stationary/DSC01940.jpg';
-import bespokeStationrySm48 from '../Images/bespoke-stationary/small_view/20_Bespoke Stationary/DSC01941.jpg';
+// import bespokeStationrySm48 from '../Images/bespoke-stationary/small_view/20_Bespoke Stationary/DSC01941.jpg';
 
 //books
 
@@ -1064,7 +1064,7 @@ import paintingBig45 from '../Images/paintings/final_view/45_DSC08003.webp';
 
 import automobilesBanner from '../Images/banner/Automobile_Banner-Page.jpg'
 
-import automobilesSm01 from '../Images/automobiles/small_view/01_Car/DSC02390.jpg';
+// import automobilesSm01 from '../Images/automobiles/small_view/01_Car/DSC02390.jpg';
 import automobilesSm02 from '../Images/automobiles/small_view/01_Car/DSC02395.jpg';
 import automobilesSm03 from '../Images/automobiles/small_view/01_Car/DSC02408.jpg';
 import automobilesSm04 from '../Images/automobiles/small_view/01_Car/DSC02415.jpg';
@@ -1092,15 +1092,15 @@ import automobilesSm21 from '../Images/automobiles/small_view/05_Car/DSC00992-KB
 import automobilesSm22 from '../Images/automobiles/small_view/05_Car/DSC00992.jpg';
 import automobilesSm23 from '../Images/automobiles/small_view/05_Car/DSC01004.jpg';
 
-import automobilesSm24 from '../Images/automobiles/small_view/05_Car/DSC00973.jpg';
-import automobilesSm25 from '../Images/automobiles/small_view/05_Car/DSC00987.jpg';
-import automobilesSm26 from '../Images/automobiles/small_view/05_Car/DSC00992-KBP-OPTION.jpg';
-import automobilesSm27 from '../Images/automobiles/small_view/05_Car/DSC00992.jpg';
-import automobilesSm28 from '../Images/automobiles/small_view/05_Car/DSC01004.jpg';
+// import automobilesSm24 from '../Images/automobiles/small_view/05_Car/DSC00973.jpg';
+// import automobilesSm25 from '../Images/automobiles/small_view/05_Car/DSC00987.jpg';
+// import automobilesSm26 from '../Images/automobiles/small_view/05_Car/DSC00992-KBP-OPTION.jpg';
+// import automobilesSm27 from '../Images/automobiles/small_view/05_Car/DSC00992.jpg';
+// import automobilesSm28 from '../Images/automobiles/small_view/05_Car/DSC01004.jpg';
 
 
-import automobilesSm29 from '../Images/automobiles/small_view/06_Car/DSC05501.jpg';
-import automobilesSm30 from '../Images/automobiles/small_view/06_Car/DSC05520.jpg';
+// import automobilesSm29 from '../Images/automobiles/small_view/06_Car/DSC05501.jpg';
+// import automobilesSm30 from '../Images/automobiles/small_view/06_Car/DSC05520.jpg';
 import automobilesSm31 from '../Images/automobiles/small_view/06_Car/DSC05556.jpg';
 import automobilesSm32 from '../Images/automobiles/small_view/06_Car/DSC05558.jpg';
 
@@ -1213,7 +1213,7 @@ import automobilesSm120 from '../Images/automobiles/small_view/26_Car/_MG_1499.j
 import automobilesSm121 from '../Images/automobiles/small_view/26_Car/_MG_1504.jpg';
 import automobilesSm122 from '../Images/automobiles/small_view/26_Car/_MG_1517.jpg';
 
-import automobilesBig01 from '../Images/automobiles/final_view/01_Car/DSC02390.webp';
+// import automobilesBig01 from '../Images/automobiles/final_view/01_Car/DSC02390.webp';
 import automobilesBig02 from '../Images/automobiles/final_view/01_Car/DSC02395.webp';
 import automobilesBig03 from '../Images/automobiles/final_view/01_Car/DSC02408.webp';
 import automobilesBig04 from '../Images/automobiles/final_view/01_Car/DSC02415.webp';
@@ -1236,10 +1236,10 @@ import automobilesBig20 from '../Images/automobiles/final_view/05_Car/DSC00987.w
 import automobilesBig21 from '../Images/automobiles/final_view/05_Car/DSC00992-KBP-OPTION.webp';
 import automobilesBig22 from '../Images/automobiles/final_view/05_Car/DSC00992.webp';
 import automobilesBig23 from '../Images/automobiles/final_view/05_Car/DSC01004.webp';
-import automobilesBig24 from '../Images/automobiles/final_view/05_Car/DSC00973.webp';
-import automobilesBig25 from '../Images/automobiles/final_view/05_Car/DSC00987.webp';
-import automobilesBig26 from '../Images/automobiles/final_view/05_Car/DSC00992-KBP-OPTION.webp';
-import automobilesBig27 from '../Images/automobiles/final_view/05_Car/DSC00992.webp';
+// import automobilesBig24 from '../Images/automobiles/final_view/05_Car/DSC00973.webp';
+// import automobilesBig25 from '../Images/automobiles/final_view/05_Car/DSC00987.webp';
+// import automobilesBig26 from '../Images/automobiles/final_view/05_Car/DSC00992-KBP-OPTION.webp';
+// import automobilesBig27 from '../Images/automobiles/final_view/05_Car/DSC00992.webp';
 //import automobilesBig28 from '../Images/automobiles/final_view/05_Car/DSC01004.webp';
 import automobilesBig29 from '../Images/automobiles/final_view/06_Car/DSC05501.webp';
 import automobilesBig30 from '../Images/automobiles/final_view/06_Car/DSC05520.webp';
@@ -1397,11 +1397,11 @@ import furniture28 from '../Images/Furniture/home_view/28_Furniture.webp'
 
 
 
-import furnitureSm01 from '../Images/Furniture/small_view/01_DSC00330.webp'
-import furnitureSm02 from '../Images/Furniture/small_view/02_DSC00562.webp'
-import furnitureSm03 from '../Images/Furniture/small_view/03_DSC03102.webp'
-import furnitureSm04 from '../Images/Furniture/small_view/04_DSC07945.webp'
-import furnitureSm05 from '../Images/Furniture/small_view/05_Furniture.webp'
+// import furnitureSm01 from '../Images/Furniture/small_view/01_DSC00330.webp'
+// import furnitureSm02 from '../Images/Furniture/small_view/02_DSC00562.webp'
+// import furnitureSm03 from '../Images/Furniture/small_view/03_DSC03102.webp'
+// import furnitureSm04 from '../Images/Furniture/small_view/04_DSC07945.webp'
+// import furnitureSm05 from '../Images/Furniture/small_view/05_Furniture.webp'
 import furnitureSm06 from '../Images/Furniture/small_view/06_Furniture.webp'
 import furnitureSm07 from '../Images/Furniture/small_view/06A_Furniture.webp'
 import furnitureSm08 from '../Images/Furniture/small_view/06B_Furniture.webp'
@@ -1417,20 +1417,20 @@ import furnitureSm17 from '../Images/Furniture/small_view/07H_Furniture.webp'
 import furnitureSm18 from '../Images/Furniture/small_view/07I_Furniture.webp';
 import furnitureSm19 from '../Images/Furniture/small_view/08_Furniture.webp';
 import furnitureSm20 from '../Images/Furniture/small_view/08A_Furniture.webp';
-import furnitureSm21 from '../Images/Furniture/small_view/09_Furniture.webp';
-import furnitureSm22 from '../Images/Furniture/small_view/10_Furniture.webp';
+// import furnitureSm21 from '../Images/Furniture/small_view/09_Furniture.webp';
+// import furnitureSm22 from '../Images/Furniture/small_view/10_Furniture.webp';
 import furnitureSm23 from '../Images/Furniture/small_view/11_Furniture.webp';
 import furnitureSm24 from '../Images/Furniture/small_view/11A_Furniture.webp';
 import furnitureSm25 from '../Images/Furniture/small_view/11B_Furniture.webp';
 import furnitureSm26 from '../Images/Furniture/small_view/12_Furniture.webp';
 import furnitureSm27 from '../Images/Furniture/small_view/12A_Furniture.webp';
-import furnitureSm28 from '../Images/Furniture/small_view/13_Furniture.webp';
+// import furnitureSm28 from '../Images/Furniture/small_view/13_Furniture.webp';
 import furnitureSm29 from '../Images/Furniture/small_view/14_Furniture.webp';
 import furnitureSm30 from '../Images/Furniture/small_view/14A_Furniture.webp';
-import furnitureSm31 from '../Images/Furniture/small_view/15_Furniture.webp';
-import furnitureSm32 from '../Images/Furniture/small_view/16_Furniture.webp';
-import furnitureSm33 from '../Images/Furniture/small_view/17_Furniture.webp';
-import furnitureSm34 from '../Images/Furniture/small_view/18_Furniture.webp';
+// import furnitureSm31 from '../Images/Furniture/small_view/15_Furniture.webp';
+// import furnitureSm32 from '../Images/Furniture/small_view/16_Furniture.webp';
+// import furnitureSm33 from '../Images/Furniture/small_view/17_Furniture.webp';
+// import furnitureSm34 from '../Images/Furniture/small_view/18_Furniture.webp';
 import furnitureSm35 from '../Images/Furniture/small_view/19_Furniture.webp';
 import furnitureSm36 from '../Images/Furniture/small_view/19A_Furniture.webp';
 import furnitureSm37 from '../Images/Furniture/small_view/19B_Furniture.webp';
@@ -1439,14 +1439,14 @@ import furnitureSm39 from '../Images/Furniture/small_view/19D_Furniture.webp';
 import furnitureSm40 from '../Images/Furniture/small_view/19E_Furniture.webp';
 import furnitureSm41 from '../Images/Furniture/small_view/20_Furniture.webp';
 import furnitureSm42 from '../Images/Furniture/small_view/20A_Furniture.webp';
-import furnitureSm43 from '../Images/Furniture/small_view/21_Furniture.webp';
-import furnitureSm44 from '../Images/Furniture/small_view/22_Furniture.webp';
-import furnitureSm45 from '../Images/Furniture/small_view/23_Furniture.webp';
-import furnitureSm46 from '../Images/Furniture/small_view/24_Furniture.webp';
-import furnitureSm47 from '../Images/Furniture/small_view/25_Furniture.webp';
-import furnitureSm48 from '../Images/Furniture/small_view/26_Furniture.webp';
-import furnitureSm49 from '../Images/Furniture/small_view/27_Furniture.webp';
-import furnitureSm50 from '../Images/Furniture/small_view/28_Furniture.webp';
+// import furnitureSm43 from '../Images/Furniture/small_view/21_Furniture.webp';
+// import furnitureSm44 from '../Images/Furniture/small_view/22_Furniture.webp';
+// import furnitureSm45 from '../Images/Furniture/small_view/23_Furniture.webp';
+// import furnitureSm46 from '../Images/Furniture/small_view/24_Furniture.webp';
+// import furnitureSm47 from '../Images/Furniture/small_view/25_Furniture.webp';
+// import furnitureSm48 from '../Images/Furniture/small_view/26_Furniture.webp';
+// import furnitureSm49 from '../Images/Furniture/small_view/27_Furniture.webp';
+// import furnitureSm50 from '../Images/Furniture/small_view/28_Furniture.webp';
 
 import furnitureBig01 from '../Images/Furniture/final_view/01_DSC00330.webp'
 import furnitureBig02 from '../Images/Furniture/final_view/02_DSC00562.webp'
@@ -1563,7 +1563,7 @@ import productsSm60 from '../Images/Product/Small View/08_FX 20/DSC04713.jpg'
 //import productsSm61 from '../Images/Product/Small View/08_FX 20/DSC04729.jpg'
 import productsSm62 from '../Images/Product/Small View/08_FX 20/DSC04736.jpg'
 import productsSm63 from '../Images/Product/Small View/08_FX 20/DSC04741.jpg'
-import productsSm64 from '../Images/Product/Small View/08_FX 20/DSC04743.jpg'
+// import productsSm64 from '../Images/Product/Small View/08_FX 20/DSC04743.jpg'
 import productsSm65 from '../Images/Product/Small View/09A_Black & Red Treadmill/09A_01_Black-&-Red-Treadmill.jpg'
 import productsSm66 from '../Images/Product/Small View/09A_Black & Red Treadmill/09A_02_Black-&-Red-Treadmill.jpg'
 import productsSm67 from '../Images/Product/Small View/09_Light Gray Treadmill/09_01_Light-Gray-Treadmill.jpg'
@@ -1971,12 +1971,12 @@ import screenPrinting09 from '../Images/screen_print/home_view/09_Screen-Print.j
 import screenPrinting10 from '../Images/screen_print/home_view/10_Screen-Print.jpg';
 import screenPrinting11 from '../Images/screen_print/home_view/11_Screen-Print.jpg';
 import screenPrinting12 from '../Images/screen_print/home_view/12_Screen-Print.jpg';
-import screenPrinting13 from '../Images/screen_print/home_view/13_Screen-Print.jpg';
-import screenPrinting14 from '../Images/screen_print/home_view/14_Screen-Print.jpg';
-import screenPrinting15 from '../Images/screen_print/home_view/15_Screen-Print.jpg';
-import screenPrinting16 from '../Images/screen_print/home_view/16_Screen-Print.jpg';
-import screenPrinting17 from '../Images/screen_print/home_view/17_Screen-Print.jpg';
-import screenPrinting18 from '../Images/screen_print/home_view/18_Screen-Print.jpg';
+// import screenPrinting13 from '../Images/screen_print/home_view/13_Screen-Print.jpg';
+// import screenPrinting14 from '../Images/screen_print/home_view/14_Screen-Print.jpg';
+// import screenPrinting15 from '../Images/screen_print/home_view/15_Screen-Print.jpg';
+// import screenPrinting16 from '../Images/screen_print/home_view/16_Screen-Print.jpg';
+// import screenPrinting17 from '../Images/screen_print/home_view/17_Screen-Print.jpg';
+// import screenPrinting18 from '../Images/screen_print/home_view/18_Screen-Print.jpg';
 
 import screenPrintingSm01 from '../Images/screen_print/options_view/01_Screen-Print_DSC05025.jpg';
 import screenPrintingSm02 from '../Images/screen_print/options_view/01A_Screen-Print_DSC05052.jpg';
@@ -5280,14 +5280,6 @@ export const proData = [
           {
             proImg: productsBig66,
             proImgOption: productsSm66,
-          },
-          {
-            proImg: productsBig67,
-            proImgOption: productsSm67,
-          },
-          {
-            proImg: productsBig68,
-            proImgOption: productsSm68,
           }
         ],
         isMultiple: true,
@@ -5296,6 +5288,14 @@ export const proData = [
       {
         productSm: products10,
         imageView: [
+          {
+            proImg: productsBig67,
+            proImgOption: productsSm67,
+          },
+          {
+            proImg: productsBig68,
+            proImgOption: productsSm68,
+          },
           {
             proImg: productsBig69,
             proImgOption: productsSm69,

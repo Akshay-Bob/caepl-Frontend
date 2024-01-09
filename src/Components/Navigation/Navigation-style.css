@@ -37,11 +37,11 @@ nav ul li a {
 }
 
 a.nav-link.active {
-  color: #fff !important;
+  color: #DED4D4 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255) !important;
+  color: #DED4D4 !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -63,7 +63,7 @@ nav ul li a:hover:after {
 
 .nav-link:hover,
 a.nav-link.active:hover {
-  color: #fff !important;
+  color: #DED4D4 !important;
 }
 
 button.navbar-toggler:focus,

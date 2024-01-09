@@ -279,7 +279,7 @@
     font-size: 18px !important;
   }
   h4 {
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 30px !important;
   }
@@ -340,9 +340,9 @@
     align-items: center;
     display: flex;
   }
-  /* .navbar-brand img{
-    height: 44px !important
-  } */
+  .nav-link{
+    font-size: 19px !important;
+  }
 }
 
 @media (min-width: 1921px) and (max-width: 2560px) {
@@ -351,7 +351,7 @@
     /* background-color: red; */
   }
   .mobileImage {
-    height: 800px !important;
+    height: 970px !important;
   }
   /* .modal-content button img{
     width: 35px !important;
@@ -390,6 +390,10 @@
 @media (min-width: 2561px) and (max-width: 2580px) {
   a.navbar-brand img {
     width: 800px !important;
+  }
+  .mobileImage {
+    height: auto !important;
+    width: 100%;
   }
 }
 

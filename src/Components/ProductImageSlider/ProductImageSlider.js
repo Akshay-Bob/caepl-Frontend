@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Carousel, Modal, Button } from "react-bootstrap";
 import cross from "../../Images/cross.svg";
 import RightVerticalSlider from "../RightVerticalSlider";
-import MobileImageCarousal from "../MobileImageCarousal";
 import { useLocation } from "react-router-dom";
 // import MobileViewProductSlider from "./MobileViewProductSlider";
 import './productImageSlider.css'
 import leftArrow from '../../Images/left-arrow-next-svgrepo-com.svg'
+
 
 
 export default function ProductImageSlider(props) {
@@ -21,16 +21,16 @@ export default function ProductImageSlider(props) {
   const [isZoomed, setIsZoomed] = useState(false);
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 });
 
-  const handleSelect = (selectedIndex, e) => {
-    setActiveIndex(selectedIndex);
-  };
+  // const handleSelect = (selectedIndex, e) => {
+  //   setActiveIndex(selectedIndex);
+  // };
 
   useEffect(() => {
     // Reset active index to 0 when the component receives new images
     setActiveIndex(0);
   }, [props.images]);
 
-  const showAllImages = window.innerWidth >= 2560;
+  // const showAllImages = window.innerWidth >= 2560;
 
   const handleMouseOver = () => {
     setZoom(2.5);
@@ -186,7 +186,7 @@ export default function ProductImageSlider(props) {
                         src={image}
                         className="w-100 h-100 object-fit-contain mw-100"
                         style={imageStyle}
-                        // height={'617px'}
+                        alt="image"
                       />
                     </Carousel.Item>
                   ))}
@@ -200,7 +200,7 @@ export default function ProductImageSlider(props) {
                     paddingLeft: "10px",
                   }}
                 >
-                  <img src={leftArrow} width={20} />
+                  <img src={leftArrow} width={20} alt="left-aarow"/>
                 </Button>
                 <Button
                   variant="primary"
@@ -212,7 +212,7 @@ export default function ProductImageSlider(props) {
                     paddingRight: "10px",
                   }}
                 >
-                  <img src={leftArrow} width={20} style={{rotate:'180deg'}}/>
+                  <img src={leftArrow} width={20} style={{rotate:'180deg'}} alt="leftArrow" />
                 </Button>
                 </Carousel>
 

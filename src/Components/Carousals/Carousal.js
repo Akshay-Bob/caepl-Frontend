@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./Carousal.css";
 import { useLocation } from "react-router-dom";
+
 export default function Carousal(props) {
   const sliderImagesData = props.images
     ? props.images.map((item) => item.proImg)

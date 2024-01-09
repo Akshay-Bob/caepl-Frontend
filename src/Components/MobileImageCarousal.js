@@ -44,6 +44,7 @@ export default function MobileImageCarousal({handleClose, activeIndex, handleSel
                         src={image}
                         className="img-fluid rounded"
                         style={imageStyle}
+                        alt='slider'
                       />
                     </Carousel.Item>
                   ))}

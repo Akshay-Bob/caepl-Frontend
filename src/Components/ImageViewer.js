@@ -6,7 +6,6 @@ import { Button } from "react-bootstrap";
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 import cross from "../Images/cross.svg";
 import { useLocation } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import leftArrow from '../Images/left-arrow-next-svgrepo-com.svg'
 
 
@@ -18,8 +17,6 @@ export default function ImageViewer(props) {
   const [zoom, setZoom] = useState(1);
   const [isZoomed, setIsZoomed] = useState(false);
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 });
-  const [initialPinchDistance, setInitialPinchDistance] = useState(null);
-  const [maxZoom, setMaxZoom] = useState(2); // Set an appropriate maximum zoom level
 
   const handleMouseOver = () => {
     setZoom(4);
@@ -92,7 +89,7 @@ export default function ImageViewer(props) {
         className="position-absolute top-0 start-100 translate-middle"
         style={{ zIndex: "3", padding: "3px", paddingTop: "0px" }}
       >
-        <img src={cross} style={{ width: "20px" }} />
+        <img src={cross} style={{ width: "20px" }} alt="cross"/>
       </Button>
       <Modal.Body style={{ overflow: "hidden", textAlign: "center" }}>
         <Carousel
@@ -136,7 +133,7 @@ export default function ImageViewer(props) {
               paddingLeft: "10px",
             }}
           >
-            <img src={leftArrow} width={20} />
+            <img src={leftArrow} width={20} alt="left-arrow" />
           </Button>
           <Button
             variant="primary"
@@ -148,7 +145,7 @@ export default function ImageViewer(props) {
               paddingRight: "10px",
             }}
           >
-            <img src={leftArrow} width={20} style={{ rotate: '180deg' }} />
+            <img src={leftArrow} width={20} style={{ rotate: '180deg' }} alt="left-arrow"/>
           </Button>
         </Carousel>
       </Modal.Body>

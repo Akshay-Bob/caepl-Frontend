@@ -100,15 +100,16 @@
   left: 50%;
   display: block;
   transform: translate(-50%, -50%);
-  font-family: var(--secondary-font);
+  font-family: var(--thirty-font);
   width: 100%;
   text-align: center;
   height: 80px;
   align-items: center;
   justify-content: center;
   display: flex;
-  line-height: 26px;
-  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  font-size: 18px;
 }
 
 .owl-nav .owl-prev{

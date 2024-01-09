@@ -51,11 +51,11 @@ export default function AboutUs() {
 
               <p>
                 Guided by a passion for and commitment to the preservation of
-                India’s rich cultural heritage, CAE quickly established itself
+                India’s rich cultural heritage, C.A.E quickly established itself
                 as being the best in the business and worked with museums from
                 all over India. The Lalit Kala Akademi, the Prince of Wales
                 Museum, Bharat Kala Bhavan in Bhopal, and the National Museum
-                exclusively entrusted CAE with the reproduction of their
+                exclusively entrusted C.A.E with the reproduction of their
                 miniatures. 
               </p>
 
@@ -64,7 +64,7 @@ export default function AboutUs() {
                 Klischograph scanner in 1969, "Dark Room" cameras from West
                 Germany, powderless etching technology from Japan, proofing
                 machines from Switzerland and film processors from the U.S.A.,
-                CAE was at the forefront of modernization.
+                C.A.E was at the forefront of modernization.
               </p>
 
               <p>
@@ -72,9 +72,9 @@ export default function AboutUs() {
                 Printing and Graphic Arts in 1959, he brought with him the
                 pioneering developments in the West back home to India. During
                 the late 1970s, printing by blocks was replaced by offset
-                lithography, and from CAE, Comart Lithographers was born. With
+                lithography, and from C.A.E, Comart Lithographers was born. With
                 state-of-the-art technology, and highly skilled creative
-                craftsmen, CAE remained a leader in the field of graphic
+                craftsmen, C.A.E remained a leader in the field of graphic
                 reproduction by photolithography.
               </p>
 
@@ -93,11 +93,11 @@ export default function AboutUs() {
             <Col className="animate__animated animate__fadeIn">
               <p>
                 As the industry races forward at an unprecedented pace,
-                CAEPL.COM has remained ahead of the curve, continuing to upgrade
+                CAEPL has remained ahead of the curve, continuing to upgrade
                 the required technology, equipment, and skill to create a
                 holistic design service provider offering everything from
                 conceptual layouts to final printing. Remaining on a consistent
-                path of evolution, CAEPL.COM remains steeped in a legacy of
+                path of evolution, CAEPL remains steeped in a legacy of
                 excellence and stands strong on our 90-year foundation of
                 integrity.
               </p>
@@ -144,11 +144,11 @@ export default function AboutUs() {
 
               <p>
                 Guided by a passion for and commitment to the preservation of
-                India’s rich cultural heritage, CAE quickly established itself
+                India’s rich cultural heritage, C.A.E quickly established itself
                 as being the best in the business and worked with museums from
                 all over India. The Lalit Kala Akademi, the Prince of Wales
                 Museum, Bharat Kala Bhavan in Bhopal, and the National Museum
-                exclusively entrusted CAE with the reproduction of their
+                exclusively entrusted C.A.E with the reproduction of their
                 miniatures. 
               </p>
 
@@ -157,7 +157,7 @@ export default function AboutUs() {
                 Klischograph scanner in 1969, "Dark Room" cameras from West
                 Germany, powderless etching technology from Japan, proofing
                 machines from Switzerland and film processors from the U.S.A.,
-                CAE was at the forefront of modernization.
+                C.A.E was at the forefront of modernization.
               </p>
 
               <p>
@@ -165,9 +165,9 @@ export default function AboutUs() {
                 Printing and Graphic Arts in 1959, he brought with him the
                 pioneering developments in the West back home to India. During
                 the late 1970s, printing by blocks was replaced by offset
-                lithography, and from CAE, Comart Lithographers was born. With
+                lithography, and from C.A.E, Comart Lithographers was born. With
                 state-of-the-art technology, and highly skilled creative
-                craftsmen, CAE remained a leader in the field of graphic
+                craftsmen, C.A.E remained a leader in the field of graphic
                 reproduction by photolithography.
               </p>
 
@@ -182,11 +182,11 @@ export default function AboutUs() {
 
               <p>
                 As the industry races forward at an unprecedented pace,
-                CAEPL.COM has remained ahead of the curve, continuing to upgrade
+                CAEPL has remained ahead of the curve, continuing to upgrade
                 the required technology, equipment, and skill to create a
                 holistic design service provider offering everything from
                 conceptual layouts to final printing. Remaining on a consistent
-                path of evolution, CAEPL.COM remains steeped in a legacy of
+                path of evolution, CAEPL remains steeped in a legacy of
                 excellence and stands strong on our 90-year foundation of
                 integrity.
               </p>

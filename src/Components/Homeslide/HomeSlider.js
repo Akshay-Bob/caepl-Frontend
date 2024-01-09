@@ -75,7 +75,7 @@ function HomeSlider() {
         }}
         onClick={handlePrev}
       >
-        <img src={leftArrow} width={20} />
+        <img src={leftArrow} width={20} alt="left-arrow" />
       </Button>
       <Button
         variant="primary"
@@ -87,7 +87,7 @@ function HomeSlider() {
         }}
         onClick={handleNext}
       >
-        <img src={leftArrow} width={20} style={{ rotate: "180deg" }} />
+        <img src={leftArrow} width={20} style={{ rotate: "180deg" }} alt="left-arrow"/>
       </Button>
     </div>
   );

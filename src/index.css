@@ -1,31 +1,21 @@
 @font-face {
-  font-family: "TrajanPro-Bold";
-  src: url("./fonts/TrajanPro-Bold.otf");
-  font-weight: bold;
+  font-family: "BigCaslonFB";
+  src: url("./fonts/BigCaslonFB-Regular.ttf");
 }
 
 @font-face {
-  font-family: "TrajanPro-Regular";
-  src: url("./fonts/TrajanPro-Regular.otf");
+  font-family: "BigCaslonFB-Bold";
+  src: url("./fonts/BigCaslonFB-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Caslon-Open-Face-Light";
-  src: url("./fonts/Caslon-Open-Face-Light.otf");
-}
-@font-face {
-  font-family: "LibreCaslonText-Bold";
-  src: url("./fonts/LibreCaslonText-Bold.ttf");
+  font-family: "BigCaslon-SmallCaps";
+  src: url("./fonts/BigCaslon-SmallCaps.ttf");
 }
 
 @font-face {
-  font-family: "LibreCaslonText-Regular";
-  src: url("./fonts/LibreCaslonText-Regular.ttf");
-}
-
-@font-face {
-  font-family: "";
-  src: url("./fonts/LibreCaslonText-Regular.ttf");
+  font-family: "BigCaslon-Expert";
+  src: url("./fonts/BigCaslon-Expert.ttf");
 }
 
 html {
@@ -40,13 +30,10 @@ html {
   --text-color: #555;
   --text-gray: #999;
   --black-color: #000;
-  --primary-font: "TrajanPro-Regular";
-  --secondary-font: "TrajanPro-Bold";
-  --thirty-font: "Caslon-Open-Face-Light";
-  --forth-font: "Caslon Openface Regular";
-  --fifth-font: "LibreCaslonText-Bold";
-  --sixth-font: "LibreCaslonText-Regular";
-  --seventh-font: "TimeNewRoma";
+  --primary-font: "BigCaslonFB";
+  --secondary-font: "BigCaslonFB-Bold";
+  --thirty-font: "BigCaslon-SmallCaps";
+  --forth-font: "BigCaslon-Expert";
 }
 
 body {
@@ -62,6 +49,15 @@ body {
   overflow-x: hidden;
 }
 
+.nav-link {
+  font-family: var(--primary-font);
+  text-transform: capitalize;
+  color: #ada298 !important;
+  letter-spacing: 0.6px;
+}
+
+
+
 .navbar-brand,
 h1 {
   font-family: var(--thirty-font);
@@ -71,12 +67,7 @@ h1 {
 .navbar-brand:hover {
   color: #ada298 !important;
 }
-.nav-link {
-  font-family: var(--sixth-font);
-  text-transform: capitalize;
-  color: #ada298 !important;
-  font-size: 19px !important;
-}
+
 
 .nav-link:hover {
   transition: all 0.5s !important;
@@ -88,7 +79,7 @@ h1 {
 }
 
 .sidenav a {
-  font-family: var(--sixth-font);
+  font-family: var(--primary-font);
 }
 .sidenav a:hover {
   color: #fff !important;
@@ -116,17 +107,18 @@ h2 {
   color: #42413f !important;
 }
 h5 {
-  font-family: var(--seventh-font);
+  font-family: var(--primary-font);
   text-align: justify;
 }
 p {
-  font-family: var(--sixth-font);
+  font-family: var(--primary-font);
   text-align: justify;
-  font-size: 18px;
+  font-size: 19px;
+  letter-spacing: 0.5px;
 }
 
 h2 {
-  font-family: var(--seventh-font);
+  font-family: var(--secondary-font);
   position: relative;
   text-transform: uppercase;
 }
@@ -161,21 +153,17 @@ h2::after {
   position: absolute;
 }
 h4 {
-  font-family: var(--seventh-font);
+  font-family: var(--thirty-font);
   text-transform: uppercase;
   font-weight: 600 !important;
+  font-size: 20px !important;
+  letter-spacing: 0.6px;
 }
 address {
-  font-family: var(--sixth-font);
+  font-family: var(--primary-font);
   text-transform: uppercase;
-}
-
-address {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px !important;
-}
-h4 {
-  font-size: 24px !important;
 }
 
 a:hover {
@@ -184,10 +172,6 @@ a:hover {
 
 i.fa-bars {
   color: var(--primary-color);
-}
-
-#product p {
-  font-size: px;
 }
 
 h6.update {
@@ -212,9 +196,9 @@ h6.update {
 
 .sidenav h3 {
   color: #a2a297 !important;
-  font-family: var(--fifth-font);
+  font-family: var(--thirty-font);
   text-transform: uppercase;
-  font-size: 18px !important;
+  font-size: 21px !important;
   margin-bottom: 0;
 }
 .dropDownList {
@@ -223,7 +207,7 @@ h6.update {
 
 .sidenav ul {
   color: #a2a297 !important;
-  font-family: var(--fifth-font);
+  font-family: var(--thirty-font);
   text-transform: uppercase;
 }
 
@@ -315,3 +299,6 @@ h6.update {
 
 }
 
+.rts___btn{
+  font-family: var(--primary-font);
+}

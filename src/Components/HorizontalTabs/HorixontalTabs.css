@@ -1,0 +1,25 @@
+.rts___btn.rts___nav___btn{
+    border: none;
+}
+
+.rts___nav___btn:hover{
+    background-color: #42413f !important;
+
+}
+
+.rts___btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+.rts___tab___selected {
+    background-color: #42413f !important;
+}
+
+.rts___tab.rts___btn{
+    font-size: 14px;
+}

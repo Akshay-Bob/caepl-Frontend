@@ -1,6 +1,6 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import "./Responsive.css";
 import App from "./App";
@@ -27,7 +27,9 @@ const AppRouter = () => (
 );
 
 root.render(
+  // <React.StrictMode>
     <HttpsRedirect>
       <AppRouter />
     </HttpsRedirect>
+  // </React.StrictMode>
 );

@@ -302,3 +302,7 @@ h6.update {
 .rts___btn{
   font-family: var(--primary-font);
 }
+
+.rts___tab.rts___btn {
+  text-transform: uppercase;
+}

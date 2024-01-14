@@ -82,7 +82,7 @@ export default function ImageViewer(props) {
 
 
   return (
-    <Modal show={props.show} onHide={props.handleClose} centered className="imageViewer">
+    <Modal show={props.show} onHide={props.handleClose} centered className="imageViewer" >
       <Button
         variant="secondary"
         onClick={props.handleClose}
@@ -91,7 +91,7 @@ export default function ImageViewer(props) {
       >
         <img src={cross} style={{ width: "20px" }} alt="cross"/>
       </Button>
-      <Modal.Body style={{ overflow: "hidden", textAlign: "center" }}>
+      <Modal.Body style={{ overflow: "hidden", textAlign: "center" }} className="modal-fullscreen">
         <Carousel
           fade
           activeIndex={props.activeIndex}

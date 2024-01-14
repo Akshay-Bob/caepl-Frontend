@@ -1,167 +1,101 @@
-import React from "react";
-import { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Breadcomes from "../Breadcomes";
-import { useLocation } from "react-router-dom";
+import React, { useState } from 'react';
+import {SlideshowLightbox} from 'lightbox.js-react'
+import 'lightbox.js-react/dist/index.css'
+import { useLocation } from 'react-router-dom';
 import { proData } from "../../Data/proData";
-import Image from "react-bootstrap/Image";
-import ImageViewer from "../ImageViewer";
-import ProductImageSlider from "../ProductImageSlider/ProductImageSlider";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import HorizontalTabs from '../HorizontalTabs/HorizontalTabs';
+import '../../Responsive.css'
 
-function Category() {
-  const [selectedProductIndex, setSelectedProductIndex] = useState(false);
-  const [show, setShow] = useState(false);
-  // const [selectedImage, setSelectedImage] = useState("");
-  const [selectedSlideImage, setSelectedSlideImage] = useState();
-  const [display, setDisplay] = useState("none");
-
-  const handleClose = () => {
-    setShow(false);
-    // setSelectedProductIndex(false);
-  };
-
-  const handleShow = (i) => {
-    setShow(true);
-    // setSelectedImage(matchingService.imgDatas[i].productSm);
-    setSelectedProductIndex(i);
-    setDisplay("block");
-    setSelectedSlideImage(i);
-  };
-
-  const handleNext = () => {
-    const nextIndex = (selectedProductIndex + 1) % matchingService.imgDatas.length;
-    updateSelectedImage(nextIndex);
-  };
-
-  const handlePrev = () => {
-    const prevIndex =
-      (selectedProductIndex - 1 + matchingService.imgDatas.length) % matchingService.imgDatas.length;
-    updateSelectedImage(prevIndex);
-  };
-  
-  const updateSelectedImage = (index) => {
-    // setSelectedImage(matchingService.imgDatas[index].productSm);
-    setSelectedSlideImage(index);
-    setSelectedProductIndex(index);
-  };
-
-  const handleSelect = (selectedIndex, isMultiple) => {
-    if (isMultiple) {
-      // console.log(selectedIndex)
-      setSelectedProductIndex(selectedIndex);
-    } else {
-      setSelectedProductIndex(selectedIndex);
+export default function Category() {
+    
+  let [isOpen, setIsOpen] = useState(false);
+  const [selectedSlideImage, setSelectedSlideImage] = useState(); 
+    const handleShow = (i) => {
+        setSelectedSlideImage(i);
     }
-  };
-
-  const location = useLocation();
-  const useParams = new URLSearchParams(location.search);
-  const type = useParams.get("product");
-  const matchingService = proData.find((item) => item.url === type);
-  if (!matchingService || !matchingService.imgDatas || matchingService.imgDatas.length === 0) {
-    return <div>Service not found</div>; // Handle the case where there's no matching service
-  }
-  const productListItems = matchingService.imgDatas
-    ? matchingService.imgDatas.map((productItem, index) => (
-      <li key={index} className="listImageStyle">
-        <Image
-          src={productItem.productSm}
-          rounded
-          className="img-fluid py-3"
-          onClick={() => handleShow(index)}
-          style={{ cursor: "pointer" }}
-        // width={'200px'}
-        />
-      </li>
-    ))
-    : [];
-
-  // const imageViews = matchingService.imgDatas
-  //   ? matchingService.imgDatas.map((item) => item.isMultiple)
-  //   : [];
-
-  const selectedProduct = matchingService.imgDatas[selectedSlideImage];
-
-  return (
-    <>
-      <Container className="d-block d-sm-none">
-        <Row>
-          <Col className="pt-3" md={5}>
-            <Breadcomes
-              cat={matchingService.category}
-              address={matchingService.alt}
-            />
-            <h4>{matchingService.alt}</h4>
-            <Image src={matchingService.bannerImg} className="img-fluid pb-3" />
-          </Col>
-          <Col md={7}>
-            <p style={{ textAlign: "left" }}>{matchingService.desc}</p>
-          </Col>
-        </Row>
-      </Container>
-
-      <Container className="d-none d-sm-block pb-4">
-        <Row>
-          <Col className="pt-3" md={5}>
-            <Breadcomes
-              cat={matchingService.category}
-              address={matchingService.alt}
-            />
-            <h4>{matchingService.alt}</h4>
-            <p style={{ textAlign: "left" }}>{matchingService.desc}</p>
-          </Col>
-          <Col md={7}>
-            <Image src={matchingService.bannerImg} className="img-fluid" />
-          </Col>
-        </Row>
-      </Container>
-
-      <Container className="pb-4">
-        <Row>
-          <Col>
-            <ul
-              className="ps-0 productImgStyle"
-              style={{ display: "grid", gridAutoRows: "auto" }}
-            >
-              {productListItems}
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-
-      {selectedProduct && selectedProduct.isMultiple ? (
-        <ProductImageSlider
-          images={selectedProduct.imageView}
-          activeIndex={selectedSlideImage}
-          show={show}
-          handleSelect={() => handleSelect(selectedProductIndex, selectedProduct?.isMultiple)}
-          isMultiple={selectedProduct?.isMultiple}
-          handleClose={handleClose}
-          display={display}
-          handlePrev={handlePrev}
-          handleNext={handleNext}
-        />
-      ) : (
-        <ImageViewer
-          show={show}
-          handleClose={handleClose}
-          images={
-            matchingService.imgDatas
-              ? matchingService.imgDatas.map((item) => item.productLg)
-              : []
-          }
-          activeIndex={selectedSlideImage}
-          handleSelect={() => handleSelect(selectedProductIndex, selectedProduct?.isMultiple)}
-          isMultiple={selectedProduct?.isMultiple}
-          handlePrev={handlePrev}
-          handleNext={handleNext}
-        />
-      )}
-      
-    </>
-  );
-};
-export default Category;
+    const location = useLocation();
+    const useParams = new URLSearchParams(location.search);
+    const type = useParams.get("product");
+    const matchingService = proData.find((item) => item.url === type);
+    if (!matchingService || !matchingService.imgDatas || matchingService.imgDatas.length === 0) {
+        return <div>Service not found</div>;
+    }
+    const productTabList = proData.map(i => i.category === matchingService.category ? i.url : null).filter(Boolean);
+    const productListItems = matchingService.imgDatas ? matchingService.imgDatas.map((productItem, index) => (
+        <li key={index} className="listImageStyle" onClick={() => {setIsOpen(true)}}>
+            <Image src={productItem.productSm} rounded className="img-fluid py-3" style={{ cursor: "pointer" }} onClick={() => handleShow(index)}/>
+        </li>
+    )) : [];
+        const selectedImage = matchingService.imgDatas[selectedSlideImage];
+        const isMultipleOptions = selectedImage && selectedImage.isMultiple;
+        let images = [];
+        if (isMultipleOptions) {
+          images = (selectedImage?.imageView || []).map(item => ({ src: item.proImg }));
+        } else if (selectedImage?.productLg) {
+          images = matchingService.imgDatas
+            .filter(item => item.productLg) 
+            .map(item => ({ src: item.productLg }));
+        }
+    const selectedIndex = productTabList.indexOf(type);
+    return (
+        <>
+            <Container className="d-block d-sm-none">
+                <Row>
+                    <Col className="pt-3" md={5}>
+                        <h4>{matchingService.alt}</h4>
+                        <Image src={matchingService.bannerImg} className="img-fluid pb-3" />
+                    </Col>
+                    <Col md={7}>
+                        <p style={{ textAlign: "left" }}>{matchingService.desc}</p>
+                    </Col>
+                </Row>
+            </Container>
+            <Container className="d-none d-sm-block pb-2">
+                <Row>
+                    <Col className="pt-3" md={5}>
+                        <h4>{matchingService.alt}</h4>
+                        <p style={{ textAlign: "left" }}>{matchingService.desc}</p>
+                    </Col>
+                    <Col md={7}>
+                        <Image src={matchingService.bannerImg} className="img-fluid" />
+                    </Col>
+                </Row>
+            </Container>
+            <Container fluid style={{ boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px', marginBottom: '5px' }}>
+                <Container>
+                    <Row>
+                        <Col className='px-0'>
+                        {productTabList.length > 0 && (
+                        <HorizontalTabs
+                            tabList={productTabList}
+                            selectedIndex={selectedIndex}
+                        />
+                        )}
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
+            <Container className="pb-4">
+                <Row>
+                    <Col>
+                        <ul
+                            className="ps-0 productImgStyle"
+                            style={{ display: "grid", gridAutoRows: "auto" }}
+                            >
+                            {productListItems}
+                        </ul>
+                        <SlideshowLightbox
+                            images={images}
+                            showThumbnails={true}
+                            showSlideshowIcon={false}
+                            open={isOpen}
+                            lightboxIdentifier="lbox1"
+                            onClose={() => setIsOpen(false)}
+                            />
+                    </Col>
+                </Row>
+            </Container>
+        </>
+    )
+}

@@ -452,3 +452,14 @@ p {
 }
 
 /* #0000008c */
+#slideshowAnim{
+	background-color: rgba(21, 21, 21, 0.89) !important;
+}
+
+._ABXHD div:nth-child(3) {
+  display: none;
+}
+
+._ABXHD div:nth-child(4) {
+  display: none;
+}

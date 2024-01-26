@@ -1,6 +1,6 @@
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import "./Responsive.css";
 import App from "./App";
@@ -10,17 +10,16 @@ import HttpsRedirect from "react-https-redirect";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Category from "./Components/Category/Category";
-import 'lightbox.js-react/dist/index.css'
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const AppRouter = () => (
+const AppRouter = (sars) => (
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/category" element={<Category />} />
+        <Route path="/admin" element={<index/>} />
       </Route>
     </Routes>
   </Router>

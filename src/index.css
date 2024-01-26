@@ -56,8 +56,6 @@ body {
   letter-spacing: 0.6px;
 }
 
-
-
 .navbar-brand,
 h1 {
   font-family: var(--thirty-font);
@@ -67,7 +65,6 @@ h1 {
 .navbar-brand:hover {
   color: #ada298 !important;
 }
-
 
 .nav-link:hover {
   transition: all 0.5s !important;
@@ -198,7 +195,7 @@ h6.update {
   color: #a2a297 !important;
   font-family: var(--thirty-font);
   text-transform: uppercase;
-  font-size: 21px !important;
+  font-size: 19px !important;
   margin-bottom: 0;
 }
 .dropDownList {
@@ -244,7 +241,8 @@ h6.update {
   left: 10px;
 }
 
-.carousel-control-prev:hover, .carousel-control-next:hover{
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
   opacity: 1 !important;
 }
 .modal-header {
@@ -256,19 +254,19 @@ h6.update {
   z-index: 2;
 }
 
-.carousel-control-next-icon{
-  background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
+.carousel-control-next-icon {
+  background-image: url("./Images/left-arrow-next-svgrepo-com.svg") !important;
   rotate: 180deg;
   height: 20px !important;
   /* background: none !important; */
 }
 
-.carousel-control-prev-icon{
-  background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
+.carousel-control-prev-icon {
+  background-image: url("./Images/left-arrow-next-svgrepo-com.svg") !important;
   height: 20px !important;
 }
 
-.productOptionsSlide .carousel-control-prev1{
+.productOptionsSlide .carousel-control-prev1 {
   position: absolute;
   top: 0% !important;
   rotate: 90deg;
@@ -276,33 +274,76 @@ h6.update {
   background: none !important;
 }
 
-.productOptionsSlide .carousel-control-next1{
+.productOptionsSlide .carousel-control-next1 {
   position: absolute;
   bottom: 0% !important;
   rotate: 270deg;
   left: 46%;
 }
 
-.productOptionsSlide .carousel-control-prev-icon{
-  background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
+.productOptionsSlide .carousel-control-prev-icon {
+  background-image: url("./Images/left-arrow-next-svgrepo-com.svg") !important;
 }
 
-.productOptionsSlide .carousel-control-next-icon{
-  background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
+.productOptionsSlide .carousel-control-next-icon {
+  background-image: url("./Images/left-arrow-next-svgrepo-com.svg") !important;
   rotate: 180deg;
 }
-.productOptionsSlide .carousel-control-next{
+.productOptionsSlide .carousel-control-next {
   top: 100% !important;
   rotate: 90deg;
   left: 37%;
   background: none !important;
-
 }
 
-.rts___btn{
+.rts___btn {
   font-family: var(--primary-font);
 }
 
 .rts___tab.rts___btn {
+  text-transform: uppercase;
+}
+
+.rts___tab___selected a:hover {
+  color: #5e0404 !important;
+}
+
+.rts___btn a:hover {
+  text-decoration: none;
+  color: #4d4b49 !important;
+}
+
+._DDceb, ._1lgEi{
+  font-size: 29px !important;
+}
+
+
+._2IJEr:hover, ._2IJEr:focus, ._2Yv4j svg:hover, ._2Yv4j svg:focus, ._1lgEi span:hover, ._DDceb:hover, ._2Vept:hover {
+  text-decoration: none;
+
+  cursor: pointer;
+
+  color: rgb(230, 230, 230);
+
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+
+}
+._1qbJe:hover {
+  color: rgb(255, 255, 255) !important; 
+
+}
+
+._1qbJe{
+  color: #717070 !important; 
+}
+.rts___tab.rts___btn button {
+  background: none;
+  border: navajowhite;
   text-transform: uppercase;
 }

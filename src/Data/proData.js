@@ -2016,7 +2016,7 @@ export const proData = [
     category: "products",
     img: service1,
     alt: "INVITATIONS",
-    url: "invitation",
+    url: "invitations",
     bannerImg: inviteBanner,
     desc: "Elevate your event with our bespoke invitations. We create personalized masterpieces that capture your unique style and the essence of your celebration. Our expert designers craft invitations that reflect your vision, from elegant weddings to unforgettable events. Choose our screen-printed collection if you appreciate an added touch of luxury. An artform in itself,  we have assembled a team of highly skilled artists and craftsmen to create products that are bound to leave a lasting impression. Explore our collection and let us help you make a statement with invitations as special as your occasion. Your story, your style, your invitations.",
     imgDatas: [
@@ -2588,20 +2588,20 @@ export const proData = [
         ],
         isMultiple: true,
       },
-      {
-        productSm: bespokeStationry16,
-        imageView: [
-          {
-            proImg: bespokeStationryBig32,
-            proImgOption: bespokeStationrySm32,
-          },
-          {
-            proImg: bespokeStationryBig33,
-            proImgOption: bespokeStationrySm33,
-          }
-        ],
-        isMultiple: true,
-      },
+      // {
+      //   productSm: bespokeStationry16,
+      //   imageView: [
+      //     {
+      //       proImg: bespokeStationryBig32,
+      //       proImgOption: bespokeStationrySm32,
+      //     },
+      //     {
+      //       proImg: bespokeStationryBig33,
+      //       proImgOption: bespokeStationrySm33,
+      //     }
+      //   ],
+      //   isMultiple: true,
+      // },
 
       {
         productSm: bespokeStationry17,
@@ -5244,7 +5244,6 @@ export const proData = [
         ],
         isMultiple: true,
       },
-
       {
         productSm: products08,
         imageView: [
@@ -5318,14 +5317,7 @@ export const proData = [
           {
             proImg: productsBig72,
             proImgOption: productsSm72,
-          }
-        ],
-        isMultiple: true,
-      },
-
-      {
-        productSm: products12,
-        imageView: [
+          },
           {
             proImg: productsBig73,
             proImgOption: productsSm73,
@@ -5337,7 +5329,6 @@ export const proData = [
         ],
         isMultiple: true,
       },
-
       {
         productSm: products13,
         imageView: [
@@ -5348,14 +5339,7 @@ export const proData = [
           {
             proImg: productsBig76,
             proImgOption: productsSm76,
-          }
-        ],
-        isMultiple: true,
-      },
-
-      {
-        productSm: products14,
-        imageView: [
+          },
           {
             proImg: productsBig77,
             proImgOption: productsSm77,
@@ -5602,6 +5586,7 @@ export const proData = [
     bannerImg:interiorsBanner,
     imgDatas:[
       {
+        id: 1,
         productSm: interiorSm01,
         imageView: [
           {
@@ -5621,6 +5606,7 @@ export const proData = [
         isMultiple: true,
       },
       {
+        id: 2,
         productSm: interiorSm02,
         imageView: [
           {
@@ -5635,6 +5621,7 @@ export const proData = [
         isMultiple: true,
       },
       {
+        id: 3,
         productSm: interiorSm03,
         imageView: [
           {
@@ -5649,6 +5636,7 @@ export const proData = [
         isMultiple: true,
       },
       {
+        id: 4,
         productSm: interiorSm04,
         imageView: [
           {
@@ -5667,39 +5655,48 @@ export const proData = [
         isMultiple: true
       },
       {
+        id: 5,
         productSm: interiorSm05,
         productLg: interiorBig11,
         isMultiple: false
       },
       {
+        id: 6,
         productSm: interiorSm06,
         productLg: interiorBig12,
       },
       {
+        id: 7,
         productSm: interiorSm07,
         productLg: interiorBig13,
       },
       {
+        id: 8,
         productSm: interiorSm08,
         productLg: interiorBig14,
       },
       {
+        id: 9,
         productSm: interiorSm09,
         productLg: interiorBig15,
       },
       {
+        id: 10,
         productSm: interiorSm10,
         productLg: interiorBig16,
       },
       {
+        id: 11,
         productSm: interiorSm11,
         productLg: interiorBig17,
       },
       {
+        id: 12,
         productSm: interiorSm12,
         productLg: interiorBig18,
       },
       {
+        id: 13,
         productSm: interiorSm13,
         imageView: [
           {
@@ -5970,7 +5967,7 @@ export const proData = [
     ],
   },
   {
-    category: "PHOTOGRAPHY & RETOUCHING",
+    category: "SCANNING & RETOUCHING",
     img: photography10,
     alt: "SCANNING & RETOUCHING",
     url: "scanning-retouching",
@@ -6114,7 +6111,8 @@ export const proData = [
           {
             productSm: packgingSm11,
             productLg: packgingBig11
-          },{
+          },
+          {
             productSm: packgingSm12,
             productLg: packgingBig12
           },
@@ -6250,7 +6248,7 @@ export const serviceOptListData = [
       { id: 6, title: "FURNITURE", uri: "furniture" },
       { id: 7, title: "PRODUCTS", uri: "products" },
       { id: 8, title: "INTERIORS", uri: "interiors" },
-      { id: 9, title: "SCANNING & RETOUCHING", uri: "scanning-retouching" },
+      // { id: 9, title: "SCANNING & RETOUCHING", uri: "scanning-retouching" },
       { id: 10, title: "MODELS", uri: "models" },
     ],
   },
@@ -6271,6 +6269,17 @@ export const serviceOptListData = [
       { id: 3, title: "SCREEN-PRINTING", uri: "screen-printing" },
     ],
   },
+  {
+    id: 3,
+    heading: "SCANNING & RETOUCHING",
+    subHead: [
+      {
+        id: 1,
+        title: "SCANNING & RETOUCHING",
+        uri: "scanning-retouching"
+      }
+    ]
+  }
 ];
 
 export const ProductsOptListData = [
@@ -6278,7 +6287,7 @@ export const ProductsOptListData = [
     id: 1,
     heading: "products",
     subHead: [
-      { id: 1, title: "INVITATIONS", uri: "invitation" },
+      { id: 1, title: "INVITATIONS", uri: "invitations" },
       { id: 2, title: "BESPOKE STATIONARY", uri: "stationary" },
       { id: 3, title: "BOOKS", uri: "books" },
       { id: 4, title: "CATALOGUES", uri: "catalogues" },

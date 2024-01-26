@@ -90,13 +90,13 @@ export default function Navigation() {
       <ul>
         {service.subHead.map((subhead) => (
           <li key={subhead.id}>
-            <a
-              href={`/category?product=${subhead.uri}`}
+            <Link
+              to={`/category?product=${subhead.uri}`}
               className={subhead.uri === type ? "activeW" : "text-grey"}
               onClick={handleServiceClick}
             >
               {subhead.title}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
@@ -109,13 +109,13 @@ export default function Navigation() {
       <ul>
         {product.subHead.map((product) => (
           <li key={product.id}>
-            <a
-              href={`/category?product=${product.uri}`}
+            <Link
+              to={`/category?product=${product.uri}`}
               className={product.uri === type ? "activeW" : "text-grey"}
               onClick={handleProductClick}
             >
               {product.title}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

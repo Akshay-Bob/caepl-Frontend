@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Tabs, Tab } from "react-tabs-scrollable";
 import "react-tabs-scrollable/dist/rts.css";
 import './HorizontalTabs.css'
@@ -6,11 +6,14 @@ import '../../Responsive.css'
 import { Link } from "react-router-dom";
 
 const HorizontalTabs = (props) => {
-  const [activeTab, setActiveTab] = useState(props.selectedIndex);
+  const [activeTab, setActiveTab] = useState(0);
+
+  useEffect(() => {
+    setActiveTab(props.selectedIndex);
+  },[props.selectedIndex])
 
   const onTabClick = (e, index) => {
     setActiveTab(index);
-    // setTabData(props.tabDetailsData[index]);
   };
 
   return (

@@ -11,9 +11,9 @@
     color: #42413f;
   }
   .rts___tab___selected a {
-    color: aliceblue;
+    color: #4d4b49 !important;
 }
-  
+
 .rts___btn {
     cursor: pointer;
     background-color: transparent;
@@ -22,12 +22,29 @@
     color: aliceblue;
 }
 
+.rts___btn a{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rts___tab.rts___btn.rts___tab___selected {
+    font-weight: 800;
+  }
+
+  .rts___tab.rts___btn.rts___tab___selected a{
+    font-size: 16px;
+  }
 
 
 .rts___tab___selected {
-    background-color: #42413f !important;
+    background-color: none !important;
+    box-shadow: none;
 }
 
 .rts___tab.rts___btn{
     font-size: 14px;
+    padding: 10px;
 }

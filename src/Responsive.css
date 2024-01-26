@@ -1,6 +1,10 @@
 /* mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
+  ._2Yv4j {
+    position: fixed;
+    left: 203px !important;
+  }
   .navbar-brand {
     width: 90%;
     align-items: center;
@@ -199,10 +203,10 @@
     line-height: 1.7 !important;
   }
   .sidenav h3 {
-    font-size: 21px !important;
+    font-size: 18px !important;
   }
   .sidenav a {
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
   .sidenav .closebtn {
     font-size: 50px !important;

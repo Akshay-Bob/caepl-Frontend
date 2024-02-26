@@ -15,7 +15,7 @@ export default function AboutUs() {
         >
           <Row>
             <Col md={12}>
-              <h2 style={{ textAlign: "center" }}>About US</h2>
+              <h2 className="horizontalLine" style={{ textAlign: "center" }}>About US</h2>
               <LazyLoadImage
                 src={aboutB}
                 className="img-fluid pt-4 text-center animate__animated animate__fadeInRight"
@@ -108,7 +108,7 @@ export default function AboutUs() {
         <Container className="d-xxl-none d-xl-block d-lg-block d-md-block d-none py-5">
           <Row>
             <Col md={12}>
-              <h2 style={{ textAlign: "center" }}>About US</h2>
+              <h2 className="horizontalLine" style={{ textAlign: "center" }}>About US</h2>
             </Col>
           </Row>
           <Row className="pt-4">

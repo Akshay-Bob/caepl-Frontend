@@ -1,0 +1,21 @@
+.p-datatable-header {
+    display: none;
+}
+.navigator {
+    text-decoration: none;
+    color: #fff;
+    background: #6c6453;
+}
+
+
+.p-dropdown-panel .p-dropdown-items{
+    padding: 0%;
+}
+
+.buttons{
+    display: block ruby !important;
+}
+
+.buttons .navigator:first-child{
+    margin-right: 5px;
+}

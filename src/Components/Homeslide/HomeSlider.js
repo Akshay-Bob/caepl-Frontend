@@ -11,6 +11,7 @@ import slide4 from "../../Images/office-space/desktop04.webp";
 import slide5 from "../../Images/office-space/desktop05.webp";
 import slide6 from "../../Images/office-space/desktop06.webp";
 import slide7 from "../../Images/office-space/desktop07.webp";
+import slide8 from "../../Images/banner/awards.jpg";
 
 import mobSlide1 from "../../Images/office-space/01_Mobile.webp";
 import mobSlide2 from "../../Images/office-space/02_Mobile.webp";
@@ -19,8 +20,10 @@ import mobSlide4 from "../../Images/office-space/04_Mobile.webp";
 import mobSlide5 from "../../Images/office-space/05_Mobile.webp";
 import mobSlide6 from "../../Images/office-space/06_Mobile.webp";
 import mobSlide7 from "../../Images/office-space/03_Mobile.webp";
+import mobSlide8 from "../../Images/banner/awards-mobile.jpg";
 
 const slides = [
+  { id: 8, img: slide8, mobileImg: mobSlide8, alt: "Awards" },
   { id: 1, img: slide1, mobileImg: mobSlide1, alt: "Invitation Cards" },
   { id: 2, img: slide2, mobileImg: mobSlide2, alt: "Invitation Cards" },
   { id: 3, img: slide7, mobileImg: mobSlide7, alt: "Invitation Cards" },

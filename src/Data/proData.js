@@ -6297,3 +6297,38 @@ export const ProductsOptListData = [
     ],
   },
 ];
+
+export const testimonial = [
+  {
+    id:1,
+    name: 'Bikram Saluja',
+    positions: 'Actor',
+    content: `Commercial Art Engravers is hands down the best place in India to do anything related with prepress and design work for print, art, books and photography.  When I had to work on the design & promotional material for each project of mine, this is the only place I thought of. The man at the helm of affairs, Khurshed Poonawala, is brilliant beyond words, at his work as well as as a person. He has a great eye for detail and aesthetics, and his skillset with design and imaging infuses life into images with a magical touch. You can be rest assured that the project you’ll take there in raw format will come back gold class. On a completely different note, the interiors of the studio draw you in and make u feel totally at home. I cherish the hours and hours, and months and months that I have spent there. And I am looking forward to taking my next project there and eating his head out.`,
+  },
+  {
+    id:2,
+    name: 'Ravi K. Sheth',
+    positions: 'Managing Director of Greatship (India) Ltd.',
+    content: `My company has been using CAEPL for over 20 years for most of its high end printing needs, specially Balance Sheets and coffee table books made to commemorate important events.
+    Our immense satisfaction with CAEPL is primarily owing to Khurshed’s meticulousness, the personal pride he takes in achieving perfection. He curates each picture personally and ensures that the entire work comes together as a seamless whole. The quality of the final print is as good as you can get an where.
+    We are happy to keep using CAEPL for all our important printing needs.
+    `,
+  },
+  {
+    id:3,
+    name: 'Padmini Mirchandani',
+    positions: 'Pictor Publishing Pvt. Ltd.',
+    content: `25 years. That’s how long I’ve been working with the wonderful Khurshed Poonawalla.
+    From Dome Over India in, our landmark project on Rashtrapati Bhavan commissioned by the President of India, to Caring for Life: The Cipla Story in 2022, I have worked only with CAEPL for my pre-press requirements on a wide range of books, and they have delivered outstanding quality every single time. 
+    Khurshed’s eye is unparalleled, especially for B/W archival images, and his quick and masterful retouching of old photographs and artistic works restores them beautifully, giving them new life and longevity. With an experienced and efficient team led by Ninad, I have  comfort and confidence in this excellent pre press house and wouldn’t go anywhere else.
+    `,
+  },
+
+  {
+    id:4,
+    name: 'Meera Ahuja',
+    positions: 'The Shoestring Publisher',
+    content: `I have known and worked with Khurshed Poonawala for over four decades, when we were both wet behind the ears and just starting our careers in the early 1980s. He is an absolute maestro of colour, with an extraordinary sensibility – where others are grounded by the constraints of offset printing, Khurshed seems to have a magical ability to see beyond the CMYK to bring a two-dimensional image to life on paper in the most multidimensional way. He is supported by an exceptional team at CAEPL.
+    `,
+  }
+]

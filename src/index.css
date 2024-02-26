@@ -116,8 +116,11 @@ p {
 
 h2 {
   font-family: var(--secondary-font);
-  position: relative;
   text-transform: uppercase;
+}
+
+.horizontalLine {
+  position: relative;
 }
 
 h3 {
@@ -128,7 +131,7 @@ h3 {
   margin-bottom: 0;
 }
 
-h2::before {
+.horizontalLine::before {
   content: "";
   display: block;
   width: 42%;
@@ -139,7 +142,7 @@ h2::before {
   position: absolute;
 }
 
-h2::after {
+.horizontalLine::after {
   content: "";
   display: block;
   width: 42%;

@@ -32,7 +32,7 @@ export default function Category() {
 
     const productListItems = matchingService.imgDatas ? matchingService.imgDatas.map((productItem, index) => (
         <li key={index} className="listImageStyle" onClick={() => handleShow(index, productItem.productSm)}>
-            <Image src={productItem.productSm} rounded className="img-fluid py-3" style={{ cursor: "pointer" }} />
+            <Image src={productItem.productSm} rounded className="img-fluid py-3" style={{ cursor: "pointer" }} alt='products'/>
         </li>
     )) : [];
 
@@ -57,7 +57,7 @@ export default function Category() {
                 <Row>
                     <Col className="pt-3" md={5}>
                         <h4>{matchingService.alt}</h4>
-                        <Image src={matchingService.bannerImg} className="img-fluid pb-3" />
+                        <Image src={matchingService.bannerImg} className="img-fluid pb-3" alt={matchingService.alt}/>
                     </Col>
                     <Col md={7}>
                         <p style={{ textAlign: "left" }}>{matchingService.desc}</p>
@@ -68,11 +68,11 @@ export default function Category() {
             <Container className="d-none d-sm-block pb-2">
                 <Row>
                     <Col className="pt-3" md={5}>
-                        <h4>{matchingService.category}</h4>
+                        <h4>{matchingService.alt}</h4>
                         <p style={{ textAlign: "left" }}>{matchingService.desc}</p>
                     </Col>
                     <Col md={7} className='pt-3'>
-                        <Image src={matchingService.bannerImg} className="img-fluid" />
+                        <Image src={matchingService.bannerImg} className="img-fluid" alt={matchingService.alt}/>
                     </Col>
                 </Row>
             </Container>
